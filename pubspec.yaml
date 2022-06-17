@@ -1,0 +1,34 @@
+name: photo_galery
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cached_network_image:
+  pull_to_refresh:
+  photo_view:
+  dismissible_page:
+  share_plus:
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  assets:
+    - assets/image_placeholder.jpg
+
+  uses-material-design: true
